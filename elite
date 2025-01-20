@@ -1,0 +1,9 @@
+def welcome_user():
+print("Hello! welcome, Im a workout chatbox")
+
+def get_user_info(0:
+                   name = input("what is your name ")
+                   age = input("how old are you? ")
+                   return name, age
+def ask_how_cab_help():
+                   print("how can i assist you with your workout today?") 

@@ -66,7 +66,7 @@ def nutrition_tips():
 def motivation():
     print("\nHere's a motivational quote for you:")
     print("The only bad workout is the one that didn't happen. – Anonymous")
-    print("You got this! Keep pushing towards your goals! 💪")
+    print("You got this! Keep pushing towards your goals! ")
 
 # Main function to run the chatbot
 def main():
@@ -79,15 +79,15 @@ def main():
         choice = input("Please enter the number of your choice: ")  # User makes a choice
 
         if choice == "1":
-            workout_plan()  # Provide a workout plan
+            workout_plan()  
         elif choice == "2":
-            learn_exercises()  # Teach exercises
+            learn_exercises()  
         elif choice == "3":
-            nutrition_tips()  # Provide nutrition tips
+            nutrition_tips()  
         elif choice == "4":
-            motivation()  # Give motivation
+            motivation()  
         elif choice == "5":
-            print("\nThanks for chatting! Stay fit and healthy! 💪")  # Exit the chatbot
+            print("\nThanks for chatting! Stay fit and healthy! ")  
             break
         else:
             print("Sorry, I didn't understand that choice. Please choose again.")  # Invalid choice
@@ -95,7 +95,7 @@ def main():
         # Ask if the user wants to continue or exit
         continue_conversation = input("\nWould you like to continue? (yes/no): ")
         if continue_conversation.lower() != "yes":
-            print("\nThanks for chatting! Stay fit and healthy! 💪")
+            print("\nThanks for chatting! Stay fit and healthy! ")
             break
 
 if __name__ == "__main__":
